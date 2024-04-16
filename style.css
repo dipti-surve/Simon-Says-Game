@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .btn{
@@ -33,9 +35,16 @@ body{
 }
 
 .btn-container{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    align-self: center;
+    background: #444444;
+    height: 469px;
+    width: 469px;
     display: flex;
     justify-content: center;
-    
 }
 
 .flash{
@@ -48,4 +57,7 @@ body{
 
 .alert{
     background-color: red;
+}
+.line{
+        align-self: center;
 }
